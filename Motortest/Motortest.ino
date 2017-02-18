@@ -47,7 +47,6 @@ void testMotors() {
 }
 
 void loop() {
-
   if (Serial.available()) {
     int c = Serial.read();
     if (c >= '0' && c <= '9') {
@@ -62,6 +61,4 @@ void loop() {
       testMotors();
     }
   }
-
 }
-
