@@ -1,0 +1,5 @@
+# Nettest build property overrides
+#
+
+# LaunchPad (Tiva C) w/ tm4c129 (120MHz)
+build.openocdscript=board/ek-tm4c1294xl.cfg
